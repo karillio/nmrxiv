@@ -3,7 +3,6 @@
     <study-content :project="project" :study="study" current="About">
       <template #study-section>
         <div class="divide-y divide-gray-200 sm:col-span-9">
-          <!-- Profile section -->
           <div class="py-3 px-4 sm:p-6 lg:pb-8">
             <div class="mt-0">
               <div>
@@ -34,6 +33,9 @@
               </div>
             </div>
           </div>
+          <div class="p-4">
+            <ontology></ontology>
+          </div>
         </div>
       </template>
     </study-content>
@@ -43,11 +45,13 @@
 <script>
 import { PlusSmIcon } from "@heroicons/vue/solid";
 import StudyContent from "@/Pages/Study/Content.vue";
+import Ontology from "@/App/Ontology.vue";
 export default {
   props: ["study", "project"],
   components: {
     StudyContent,
     PlusSmIcon,
+    Ontology
   },
   setup() {},
   mounted() {},

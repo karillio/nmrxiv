@@ -3,14 +3,14 @@
   <div
     class="col-span-1 bg-white rounded-lg shadow divide-gray-200 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-100 duration-300"
   >
-    <div class="w-full h-30 flex items-center justify-between p-6 space-x-6">
+    <div class="w-full h-30 flex items-center justify-between p-6 pb-5 space-x-6">
       <div class="flex-1">
-        <div style="min-height: 50px;" class="flex place-content-between space-x-3">
+        <div class="flex place-content-between space-x-3">
           <h3 class="text-gray-900 text-l font-semibold line-clamp-2">
             {{ name }}
           </h3>
         </div>
-        <div style="min-height: 100px;">
+        <div>
           <p v-if="description" class="mt-1 text-gray-500 text-sm line-clamp-4">
             {{ description }}
           </p>
