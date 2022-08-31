@@ -2441,7 +2441,7 @@ export default {
                 },
                 {
                     id: "02",
-                    step: "v-step-20",
+                    step: "tour-step-submission-header",
                     name: "Assignments & Meta data",
                     description: "Cursus semper viverra.",
                     href: "#",
