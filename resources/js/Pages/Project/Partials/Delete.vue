@@ -106,6 +106,7 @@ export default {
 
     data() {
         return {
+            coolOffPeriod: process.env.COOL_APP_NAMEOFF_PERIOD,  
             loading: false,
             confirmingProjectDeletion: false,
             confirmingProjectDeletionWithoutPassword: false,
